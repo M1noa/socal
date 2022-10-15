@@ -39,9 +39,9 @@ const Home: NextPage<Props> = ({ twitterInfo, githubInfo }) => {
         discord?: string;
     };
 
-    const twitterUsername = params.twitter !== undefined ? params.twitter : "notcnrad";
-    const githubUsername = params.github !== undefined ? params.github : "cnrad";
-    const discordID = params.discord !== undefined ? params.discord : "705665813994012695";
+    const twitterUsername = params.twitter !== undefined ? params.twitter : "Minoa___";
+    const githubUsername = params.github !== undefined ? params.github : "MinoaBaccus";
+    const discordID = params.discord !== undefined ? params.discord : "919656376807092304";
 
     useEffect(() => {
         const interval = setInterval(async () => {
@@ -63,7 +63,7 @@ const Home: NextPage<Props> = ({ twitterInfo, githubInfo }) => {
     return (
         <>
             <Head>
-                <title>d.cnrad.dev dashboard</title>
+                <title>Minoa's Stuff</title>
             </Head>
             <Page>
                 <Main>
